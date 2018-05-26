@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YAssistive
 
 [![CI Status](https://img.shields.io/travis/NSObject-Y/YAssistive.svg?style=flat)](https://travis-ci.org/NSObject-Y/YAssistive)
@@ -27,3 +28,6 @@ NSObject-Y, yangsui92@163.com
 ## License
 
 YAssistive is available under the MIT license. See the LICENSE file for more info.
+=======
+# YAssistiveTouch
+>>>>>>> 277aa20e48db8f3f62089712b5309487042e7a01
