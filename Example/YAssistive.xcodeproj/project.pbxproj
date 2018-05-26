@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		14D94E50239B5F9285ADB99D /* Pods-YAssistive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAssistive_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YAssistive_Example/Pods-YAssistive_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F260F73EABB3DD160C1313A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F260F73EABB3DD160C1313A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A9FE9D0267BF35B2A3E36F1 /* Pods_YAssistive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAssistive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40F21C7FB3AFC8D260DD5E04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40F21C7FB3AFC8D260DD5E04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		453D83E464AA87C09CBDCC47 /* Pods-YAssistive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAssistive_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YAssistive_Tests/Pods-YAssistive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YAssistive_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAssistive_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* YAssistive_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAssistive_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		642EA0E12726527A595A3475 /* YAssistive.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YAssistive.podspec; path = ../YAssistive.podspec; sourceTree = "<group>"; };
+		642EA0E12726527A595A3475 /* YAssistive.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YAssistive.podspec; path = ../YAssistive.podspec; sourceTree = "<group>"; };
 		8B3126B505B5FAD80C5105A9 /* Pods-YAssistive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAssistive_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YAssistive_Example/Pods-YAssistive_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E3E907E7E683A49B85A16C3 /* Pods-YAssistive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAssistive_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YAssistive_Tests/Pods-YAssistive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A27D0DEE047D5C85FFFD446B /* Pods_YAssistive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAssistive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -518,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YAssistive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -533,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YAssistive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

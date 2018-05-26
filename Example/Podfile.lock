@@ -1,0 +1,16 @@
+PODS:
+  - YAssistive (0.1.0)
+
+DEPENDENCIES:
+  - YAssistive (from `../`)
+
+EXTERNAL SOURCES:
+  YAssistive:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YAssistive: 7fe74d5402904ede4a36910cbe00704dbb5f2c15
+
+PODFILE CHECKSUM: 8e4e61c718409ba540d244701a0e24cea0b7d8c7
+
+COCOAPODS: 1.4.0

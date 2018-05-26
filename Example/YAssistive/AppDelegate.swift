@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YAssistive
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
+        
+        let ss = YAssistiveButton.init(frame: CGRect.init(x: 50, y: 50, width: 100, height: 100))
+        ss.backgroundColor = UIColor.red
+        window?.addSubview(ss)
+        
         return true
     }
 
