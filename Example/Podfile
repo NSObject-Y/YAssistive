@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YAssistive_Example' do
+  pod 'YAssistive', :path => '../'
+
+  target 'YAssistive_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
